@@ -295,6 +295,10 @@
     document.getElementById('progressBar').style.width = progress + '%';
     document.getElementById('progressPercentage').textContent = progress + '% Completed';
 	 }
+
+
+
+checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script>
