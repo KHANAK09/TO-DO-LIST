@@ -17,5 +17,7 @@ What sets TaskTrack apart is our dynamic progess bar, which gives you a clear, v
 
 And when you're ready to share your progress or save your plans, TaskTrack offers seamless PDF export functionality. With just on eclick, you can convert your entire to-do list into a clean,printable PDF- prefect for sharing with your team,submitting reports, or keeping personal records.
 
+TaskTrack isn't just a nother to-do list website-it's your personal productivity assistant, helping you take control of your time, stay organized, and mae every day more manageable. Get started today and experience how simple and satisfying task managementt can truly be.
+
 
 
