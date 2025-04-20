@@ -316,7 +316,7 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
             const completed = todo.querySelector('input[type="checkbox"]').checked ? 'Completed' : 'Not Completed';
 
             doc.setFontSize(12);
-            doc.text(`Task ${index + 1}: ${task}`, 10, yPosition);
+            doc.text(`Task ${i + 1}: ${task}`, 10, y);
             yPosition += 10;
             doc.text(`- Date : ${date}`, 10, yPosition);
             yPosition += 10;
