@@ -317,8 +317,8 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
 
             doc.setFontSize(12);
             doc.text(`Task ${i + 1}: ${task}`, 10, y);
-            yPosition += 10;
-            doc.text(`- Date : ${date}`, 10, yPosition);
+            y+= 10;
+            doc.text(`- Date : ${date}`, 10, y);
             yPosition += 10;
             doc.text(`- Time : ${time}`, 10, yPosition);
             yPosition += 10;
