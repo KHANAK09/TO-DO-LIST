@@ -10,8 +10,7 @@ body{background-image: url("https://png.pngtree.com/thumb_back/fh260/background/
 		background-size:cover;
 		background-attachment:fixed;
 		}
-body{
-	min-height:100vh;
+body
 	*{
 	margin:0;
 	padding:0;
