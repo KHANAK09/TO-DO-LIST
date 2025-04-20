@@ -323,9 +323,9 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
             doc.text(`- Time : ${time}`, 10, y);
             y += 10;
             doc.text(`- Priority: ${priority}`, 10, y);
-            yPosition += 10;
-            doc.text(`- Status: ${completed}`, 10, yPosition);
-            yPosition += 20;
+            y += 10;
+            doc.text(`- Status: ${completed}`, 10, y);
+            y += 20;
 
             if (yPosition > 270) {
                 doc.addPage();
