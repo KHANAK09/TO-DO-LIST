@@ -300,16 +300,15 @@
 
 checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
 </script>
+	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script>
     document.getElementById('exportToPdf').addEventListener('click', () => {
         const { jsPDF } = window.jspdf;
         const doc = new jsPDF();
-        let yPosition = 10;
+        let y = 10;
 
-        const todos = document.querySelectorAll('.todo');
-
-        todos.forEach((todo, index) => {
+       
             const task = todo.querySelector('.todo__value').value || 'No task added';
             const date = todo.querySelector('input[type="date"]').value || 'No date set';
             const time = todo.querySelector('input[type="time"]').value || 'No time set';
