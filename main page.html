@@ -340,7 +340,7 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
 
       
 
-        const completedTasks = Array.from(checkboxes).filter(checkbox => checkbox.checked).length;
+        
         const progress = Math.round((completedTasks / totalTasks) * 100);
 
         document.getElementById('progressBar').style.width = `${progress}%`;
