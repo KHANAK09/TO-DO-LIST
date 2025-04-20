@@ -68,7 +68,7 @@ body{
 	font-weight:800;
 	cursor:pointer;
 	border-radius:3px;}
-.navbar{background-color: #1a237e;}
+.navbar{background-color: #1a237e;padding:}
 .navdiv{display:flex;align-items:center;justify-content:space-between;}
 .logo a{font-size:35px; font-weight:600;color:white;
 text-decoration:none;}
