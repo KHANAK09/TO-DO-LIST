@@ -337,8 +337,7 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
     });
 </script>
 
-<script>
-    function updateProgressBar() {
+
         const checkboxes = document.querySelectorAll('.todo__checkbox');
         const totalTasks = checkboxes.length;
         const completedTasks = Array.from(checkboxes).filter(checkbox => checkbox.checked).length;
