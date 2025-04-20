@@ -291,6 +291,7 @@
 	 function updateProgressBar() {
     const totalTasks = checkboxes.length;
     const completedTasks = Array.from(checkboxes).filter(cb => cb.checked).length;
+    const progress = Math.round((completedTasks / totalTasks) * 100);
 	 }
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
