@@ -335,7 +335,7 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
 
         doc.save('to-do-list.pdf');
     });
-</script>
+
 
 
       
@@ -343,10 +343,7 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
         
        
 
-       
-        const progressPercentage = document.getElementById('progressPercentage');
-        progressPercentage.textContent = `${progress}% Completed`;
-    }
+  
 
     const checkboxes = document.querySelectorAll('.todo__checkbox');
     checkboxes.forEach(checkbox => {
