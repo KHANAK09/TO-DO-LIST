@@ -308,11 +308,11 @@ checkboxes.forEach(cb => cb.addEventListener('change', updateProgressBar));
         const doc = new jsPDF();
         let y = 10;
 
-       
+            document.querySelectorAll('.todo').forEach((todo, i) => {
             const task = todo.querySelector('.todo__value').value || 'No task added';
             const date = todo.querySelector('input[type="date"]').value || 'No date set';
             const time = todo.querySelector('input[type="time"]').value || 'No time set';
-            const priority = todo.querySelector('.priority').value || 'Not set';
+            const priority = todo.querySelector('.priority').value;
             const completed = todo.querySelector('input[type="checkbox"]').checked ? 'Completed' : 'Not Completed';
 
             doc.setFontSize(12);
