@@ -248,7 +248,7 @@
 <a href="\about.html" class="submit">DONE</a>
 
 <script>
-    const boxes = document.querySelectorAll('.todo__checkbox');
+    const checkboxes = document.querySelectorAll('.todo__checkbox');
     const todosContainer = document.getElementById('todosContainer');
     const priorities = document.querySelectorAll('.priority');
 
@@ -288,6 +288,9 @@
 
         todos.forEach(todo => todosContainer.appendChild(todo));
     }
+	 function updateProgressBar() {
+    const totalTasks = checkboxes.length;
+	 }
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script>
