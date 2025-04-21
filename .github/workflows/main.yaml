@@ -1,34 +1,47 @@
-project:
-  name: "To-Do lsit | Smart Task Management Platform"
-  description: >
-    TaskTrack is a productivity-driven task management platform tailored for users looking to stay organized, 
-    meet deadlines, and maintain daily efficiency. Whether you're a student, professional, or someone managing 
-    personal responsibilities, TaskTrack helps you create custom to-do lists, set reminders, track progress, and 
-    stay ahead of your schedule — all through an intuitive, visually engaging interface.
+Project:
+  name: To-Do List Web App
+  framework: HTML/CSS/JavaScript
+  language: JavaScript,HTML,CSS
+  package manager: npm
 
-tech_stack:
-  - React: "Component-based library for dynamic UI development"
-  - Tailwind CSS: "Utility-first CSS framework for modern responsive design"
-  - JavaScript: "Core language for building interactive features"
-  - Vite: "Fast build tool and development server for modern web projects"
-  - HTML/CSS: "Base structure and styling of the platform"
-
-key_features:
-  - Custom Task Lists: "Create personalized to-do lists with due dates and time"
-  - Priority Sorting: "Organize tasks by high, medium, and low priority"
-  - Reminder Notifications: "Never miss a deadline with automatic reminders"
-  - Dynamic Progress Bar: "Visual feedback on task completion to stay motivated"
-  - PDF Export: "Easily export tasks or progress into shareable, printable PDFs"
-  - Responsive UI: "Seamless usage across desktop, tablet, and mobile"
-
-learnings: >
-  Building TaskTrack sharpened my frontend development skills, UX design thinking, and 
-  practical understanding of productivity tools. I explored the use of progress tracking logic, 
-  notification systems, and PDF generation while applying modular and scalable design principles.
-
-collaborators:
-  NAME-
-  1.Harshita (2410990336)
-  2. Ipshita (2410990353)
-  3. Hiya (2140990351)
+structure:
+  src:
+  components:
+   Header
+   Footer
+   
   
+  
+    - pages:
+        - about.html        # About the to-do list application
+        - Homepage .html     # Main to-do list interface
+        - contact.html         # Contact information page
+        - feedback.html            # Feedback/thank you page
+        - sign-up.html         # Sign-up/login page
+        - mainpage.html        # Enhanced to-do list with priorities and completion
+  branches:
+   main
+    master
+    - scripts:
+        - main.js           # JavaScript for app logic
+        - utils.js          # Utility functions
+
+dependencies:
+  vanilla-js: latest
+DE Dependencies:
+  eslint: latest
+  prettier: latest
+
+scripts:
+  start: "serve src"
+  build: "echo 'No build step for static HTML'"
+  lint: "eslint."
+  format: "prettier --write."
+
+environment:
+  port: 8080
+  api_base_url: "http://localhost:5000/api" # If you have a backend
+
+description: >
+  This is a simple To-Do List web application. It allows users to create, prioritize, and manage tasks,
+  view contact information, sign up or log in, and submit feedback after completing their tasks.
