@@ -9,6 +9,12 @@ structure:
   components:
    Header
    Footer
+   About
+   Contact
+   Sign in
+   TodoList
+   Todoitem
+   Progressbar
    
   
   
