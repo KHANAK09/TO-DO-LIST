@@ -1,0 +1,34 @@
+project:
+  name: "To-Do lsit | Smart Task Management Platform"
+  description: >
+    TaskTrack is a productivity-driven task management platform tailored for users looking to stay organized, 
+    meet deadlines, and maintain daily efficiency. Whether you're a student, professional, or someone managing 
+    personal responsibilities, TaskTrack helps you create custom to-do lists, set reminders, track progress, and 
+    stay ahead of your schedule — all through an intuitive, visually engaging interface.
+
+tech_stack:
+  - React: "Component-based library for dynamic UI development"
+  - Tailwind CSS: "Utility-first CSS framework for modern responsive design"
+  - JavaScript: "Core language for building interactive features"
+  - Vite: "Fast build tool and development server for modern web projects"
+  - HTML/CSS: "Base structure and styling of the platform"
+
+key_features:
+  - Custom Task Lists: "Create personalized to-do lists with due dates and time"
+  - Priority Sorting: "Organize tasks by high, medium, and low priority"
+  - Reminder Notifications: "Never miss a deadline with automatic reminders"
+  - Dynamic Progress Bar: "Visual feedback on task completion to stay motivated"
+  - PDF Export: "Easily export tasks or progress into shareable, printable PDFs"
+  - Responsive UI: "Seamless usage across desktop, tablet, and mobile"
+
+learnings: >
+  Building TaskTrack sharpened my frontend development skills, UX design thinking, and 
+  practical understanding of productivity tools. I explored the use of progress tracking logic, 
+  notification systems, and PDF generation while applying modular and scalable design principles.
+
+collaborators:
+  NAME-
+  1.Harshita (2410990336)
+  2. Ipshita (2410990353)
+  3. Hiya (2140990351)
+  
