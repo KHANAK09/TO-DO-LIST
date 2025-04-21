@@ -1,0 +1,70 @@
+project:
+  name: TaskTrack – Task Management Platform
+  framework: React
+  language: JavaScript
+  package_manager: npm
+
+structure:
+  src:
+    - components:
+        - TaskList.jsx
+        - TaskItem.jsx
+        - ProgressBar.jsx
+        - ReminderCard.jsx
+        - PDFExportButton.jsx
+    - pages:
+        - Dashboard.jsx
+        - TodayTasks.jsx
+        - CalendarView.jsx
+        - Settings.jsx
+    - assets:
+        - images/
+        - styles/
+    - services:
+        - taskService.js
+        - reminderService.js
+        - pdfExportService.js
+    - context:
+        - TaskContext.js
+        - UserContext.js
+    - utils:
+        - dateHelper.js
+        - prioritySorter.js
+
+features:
+  - Custom to-do lists tailored to user workflow
+  - Task creation with due date and time
+  - Priority-based task ordering
+  - Automatic reminders and notifications
+  - Real-time dynamic progress bar
+  - PDF export of task list
+  - Responsive, intuitive UI
+
+dependencies:
+  react: latest
+  react-router-dom: latest
+  axios: latest
+  tailwindcss: latest
+  react-icons: latest
+  zustand: optional
+
+devDependencies:
+  vite: latest
+  eslint: latest
+  prettier: latest
+
+scripts:
+  start: "vite"
+  build: "vite build"
+  lint: "eslint ."
+  format: "prettier --write ."
+
+environment:
+  port: 3000
+  api_base_url: "http://localhost:5000/api"
+
+description: >
+  TaskTrack is an all-in-one task management platform designed to boost your productivity 
+  and keep your life organized. With features like customizable to-do lists, reminders, 
+  priority settings, a dynamic progress bar, and PDF export, TaskTrack makes task 
+  management simple, efficient, and even a little fun.
