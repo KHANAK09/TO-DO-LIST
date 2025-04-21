@@ -16,7 +16,7 @@ structure:
    Todoitem
    Progressbar
    Feedback
-   - pages:
+   pages:
         - about.html        # About the to-do list application
         - Homepage .html     # Main to-do list interface
         - contact.html         # Contact information page
