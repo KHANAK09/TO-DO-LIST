@@ -36,9 +36,16 @@
     color: white;
     animation: colorChange1 5s infinte;
 
-@keyframes colorChange1{0%{color:white;}
-25%{color:black;}
-50%{color:white;}
+@keyframes colorChange1{
+0%, 100%{color:white;}
+25%, 75%{color:#dcdcdc;}
+50%{color: #f1f1f1;}
+.navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 75%{color:black;}
 100%{color:white;}}
 li{list-style:none;display:inline-block;}
